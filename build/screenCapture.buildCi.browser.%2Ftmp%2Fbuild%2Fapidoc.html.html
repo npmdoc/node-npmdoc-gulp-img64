@@ -63,15 +63,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-img64.toString">
-            function <span class="apidocSignatureSpan">gulp-img64.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -130,36 +121,6 @@
 	});
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-img64.toString" id="apidoc.element.gulp-img64.toString">
-        function <span class="apidocSignatureSpan">gulp-img64.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-					var isdata = ssrc.indexOf("data");
-					if (ssrc != "" &amp;&amp; typeof ssrc != 'undefined' &amp;&amp; isdata !== 0) {
-						var spath = path.join(file.base, ssrc);
-						var mtype = mime.lookup(spath);
-						if (mtype != 'application/octet-stream') {
-							console.log(mtype);
-							var sfile = fs.readFileSync(spath);
-							var simg64 = new Buffer(sfile).<span class="apidocCodeKeywordSpan">toString</span>('base64');
-							this.attr('src', 'data:' + mtype + ';base64,' + simg64);
-						}
-					}
-				}
-			});
-			var output = $.html();
-...</pre></li>
     </ul>
 
 
