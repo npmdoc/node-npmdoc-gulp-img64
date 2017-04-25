@@ -1,4 +1,7 @@
-# api documentation for  [gulp-img64 (v0.0.6)](https://github.com/247even/gulp-img64)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-img64.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-img64) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-img64.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-img64)
+# npmdoc-gulp-img64
+
+#### basic api documentation for  [gulp-img64 (v0.0.6)](https://github.com/247even/gulp-img64)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-img64.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-img64) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-img64.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-img64)
+
 #### Convert and replace image-files within your DOM/HTML to base64-encoded data.
 
 [![NPM](https://nodei.co/npm/gulp-img64.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-img64)
@@ -68,7 +71,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.0.6"
+    "version": "0.0.6",
+    "bin": {}
 }
 ```
 
